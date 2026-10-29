@@ -1,0 +1,19 @@
+.pill{position:absolute;top:14px;left:50%;transform:translateX(-50%);z-index:5;display:flex;align-items:center;gap:6px;height:26px;padding:0 14px;border-radius:13px;border:1px solid #14532d;background:#062014;color:#4ade80;font-size:11px;font-weight:500;pointer-events:none}
+.pill.off{border-color:#404040;background:#1a1a1a;color:var(--mut)}
+
+/* React Flow chrome: match the dark theme, no light panels */
+.react-flow{--xy-background-color:var(--bg)}
+.react-flow.dark{
+  --xy-controls-button-background-color:#16161c;--xy-controls-button-background-color-hover:#22222a;
+  --xy-controls-button-color:#e5e5e5;--xy-controls-button-border-color:#2a2a32;--xy-controls-box-shadow:none;
+  --xy-minimap-background-color:#0e0e12;--xy-minimap-mask-background-color:rgba(10,10,12,.7);
+  --xy-attribution-background-color:transparent;
+}
+.react-flow__panel{background:none}
+.react-flow__controls{width:max-content;background:none;box-shadow:none;border-radius:4px;overflow:hidden}
+.react-flow__minimap{width:200px;height:150px;background:#0e0e12;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.react-flow__attribution{background:transparent}
+.react-flow__handle{width:10px;height:10px;background:#e5e5e5;border:2px solid #555;min-width:0;min-height:0}
+
+.toast{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:6;max-width:70%;padding:8px 14px;border-radius:8px;font-size:12px;font-weight:500;border:1px solid #14532d;background:#062014;color:#4ade80}
+.toast.error{border-color:#7f1d1d;background:#2a0c0c;color:#ff9a9a}

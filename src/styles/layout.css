@@ -1,0 +1,6 @@
+.app{height:100%;display:flex;flex-direction:column}
+header{height:56px;display:flex;align-items:center;gap:14px;padding:0 20px;background:#101014;border-bottom:1px solid var(--line)}
+.logo{width:34px;height:34px;border-radius:8px;background:#172338;color:#3b9bff;display:grid;place-items:center}
+h1{margin:0;font-size:14px}header p{margin:2px 0 0;font-size:11px;color:var(--mut)}
+.body{flex:1;display:flex;min-height:0}
+main{flex:1;position:relative;min-width:0}

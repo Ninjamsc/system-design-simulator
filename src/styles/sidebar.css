@@ -1,0 +1,10 @@
+.left{width:200px;background:#101014;border-right:1px solid var(--line);display:flex;flex-direction:column;overflow:auto}
+.left section{padding:14px 16px;border-bottom:1px solid var(--line)}
+h3{margin:0 0 10px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.it{display:flex;align-items:center;gap:10px;width:100%;height:30px;background:none;border:0;padding:0;font-size:12px;font-weight:500;text-align:left}
+.it svg:first-child{color:var(--mut)}.it:hover,.it.on{color:#60a5fa}
+.ctl{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.pause{display:flex;align-items:center;gap:6px;height:32px;padding:0 14px;border-radius:6px;border:1px solid #4a1414;background:#2a0c0c;color:#ff5555;font-size:12px;font-weight:700}
+.pause.play{border-color:#14532d;background:#062014;color:#4ade80}
+.lg{display:flex;align-items:center;gap:8px;font-size:11px;color:#c4c4c4;margin-bottom:8px}.lg i{width:8px;height:8px;border-radius:50%}
+.keys{margin:auto 0 0;padding:14px 16px;font-size:11px;line-height:1.5;color:#8f8f8f}

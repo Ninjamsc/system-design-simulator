@@ -1,0 +1,8 @@
+.ep{fill:none}
+.ep.sync.act{stroke-dasharray:7 6;stroke-linecap:round;animation:flow var(--dur) linear infinite}
+.ep.async{stroke-dasharray:1.5 8;stroke-linecap:round}
+.ep.async.act{animation:flow2 var(--dur) linear infinite}
+.ep.rev{animation-direction:reverse}
+@keyframes flow{to{stroke-dashoffset:-26}}
+@keyframes flow2{to{stroke-dashoffset:-19}}
+@media (prefers-reduced-motion:reduce){.ep.act{animation:none!important}}
